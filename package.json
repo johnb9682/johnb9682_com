@@ -1,0 +1,23 @@
+{
+  "name": "johnb9682_com",
+  "version": "0.0.1",
+  "description": "Innitialization",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/johnb9682/johnb9682_com.git"
+  },
+  "keywords": [
+    "Personal",
+    "Website"
+  ],
+  "author": "johnb9682",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnb9682/johnb9682_com/issues"
+  },
+  "homepage": "https://github.com/johnb9682/johnb9682_com#readme"
+}
