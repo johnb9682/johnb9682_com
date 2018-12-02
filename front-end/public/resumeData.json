@@ -1,0 +1,151 @@
+{
+  "main": {
+    "name":"John",
+    "occupation":"Developer",
+    "description":"I solve problems.",
+    "image":"profilepic.jpg",
+    "bio":"Developer and soccer player",
+    "contactmessage":"",
+    "email": "johnb9682@gmail.com",
+    "phone": "",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "",
+    "---website": "http://www.timbakerdev.com",
+    "resumedownload":"",
+    "---resumedownload":"http://timbakerdev.com",
+    "---social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/john.bi.395",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/tbakerx",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/tbakerx",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ],
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/john.bi.395",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ran-bi-ba167799/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/johnb9682",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+
+  },
+  "resume":{
+    "skillmessage":"Dedicated and optimistic Developer",
+    "education":[
+      {
+        "school":"Singapore Nanyang Technological University (NTU)",
+        "degree":"Majoring in Computer Science",
+        "graduated":"Jun 2016",
+        "description":"4.0 GPA and School representative for the International Computer Programming Contest (ICPC 2013-2014)"
+      }
+    ],
+    "work":[
+      {
+        "company":"traveloka",
+        "title":"Back end Engineer",
+        "years":"Jun 2018 - Present",
+        "description":"Java Development"
+      },
+      {
+        "company":"Works Applications Corporation (Singapore)",
+        "title":"Full Stack Software Engineer",
+        "years":"Oct 2016 - Jun 2018",
+        "description":"UI / UX, Front end development, backend development (Java + Spring), database (Cassandra)"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"40%"
+      },
+      {
+        "name":"Java",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"30%"
+      },
+      {
+        "name":"Spring",
+        "level":"40%"
+      },
+      {
+        "name":"Cassandra",
+        "level":"40%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"30%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [ 
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.johnb9682.com"
+      } 
+    ]
+  },
+  "testimonials":{
+    "testimonials":[ 
+    ]
+  }
+}
