@@ -129,8 +129,8 @@
         "level":"30%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"sudo",
+        "level":"120%"
       }
     ]
   },
@@ -139,7 +139,7 @@
       {
         "title":"Resume Website",
         "category":"A React based resume website template",
-        "image":"resume-website.jpg",
+        "image":"",
         "url":"http://www.johnb9682.com"
       } 
     ]
