@@ -4,7 +4,7 @@
     "occupation":"Developer",
     "description":"Soccer Fan, Happy Dude",
     "image":"profilepic.jpg",
-    "bio":"Developer and soccer player",
+    "bio":"Developer and soccer fan",
     "contactmessage":"",
     "email": "johnb9682@gmail.com",
     "phone": "",
@@ -86,7 +86,7 @@
         "school":"Singapore Nanyang Technological University (NTU)",
         "degree":"Majoring in Computer Science",
         "graduated":"Jun 2016",
-        "description":"4.0 GPA and School representative for the International Computer Programming Contest (ICPC 2013-2014)"
+        "description":"School representative for the International Computer Programming Contest (ICPC 2013-2014)"
       }
     ],
     "work":[
