@@ -6,6 +6,12 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
+app.get('/resumedata', (req, res) => {
+  var resumeData = 'public/' + 'resumeData.json';
+  console.log('resumeData directory: ' + resumeData);
+  res.sendfile(resumeData);
+});
+
 app.listen(3000, () => {
   console.log('Example app listening on port 3000!');
 });
