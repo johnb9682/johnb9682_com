@@ -10,10 +10,10 @@ app.get('/', (req, res) => {
 app.get('/resumedata', (req, res) => {
   var resumeData = 'public/' + 'resumeData.json';
   console.log('resumeData directory: ' + resumeData);
-  var resumeData = fs.readFileSync(resumeData, 'utf8');
+  var resumeData = JSON.stringify(fs.readFileSync(resumeData, 'utf8'));
   console.log(resumeData);
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify(resumeData));
+  res.send(resumeData);
   // res.sendFile(resumeData);
 });
 
