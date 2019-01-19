@@ -2,7 +2,9 @@ const express = require('express');
 const app = express(); 
 const request = require('request-promise');
 var fs = require('fs');
+var cors = require('cors');
 
+app.use(cors());
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
