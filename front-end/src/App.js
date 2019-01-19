@@ -40,7 +40,7 @@ class App extends Component {
       }
     });
     */
-   fetch("http://johnb9682.com:3000/resumedata")
+   fetch("http://johnb9682.com:3666/resumedata")
       .then(res => res.json())
       .then(
         (result) => {

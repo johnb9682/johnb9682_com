@@ -12,6 +12,6 @@ app.get('/resumedata', (req, res) => {
   res.sendfile(resumeData);
 });
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!');
+app.listen(3666, () => {
+  console.log('Example app listening on port 3666!');
 });
