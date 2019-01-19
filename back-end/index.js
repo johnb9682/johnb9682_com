@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express(); 
 const request = require('request-promise');
+var fs = require('fs');
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
@@ -9,7 +10,11 @@ app.get('/', (req, res) => {
 app.get('/resumedata', (req, res) => {
   var resumeData = 'public/' + 'resumeData.json';
   console.log('resumeData directory: ' + resumeData);
-  res.sendfile(resumeData);
+  var resumeData = fs.readFileSync(resumeData, 'utf8');
+  console.log(resumeData);
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(resumeData));
+  // res.sendFile(resumeData);
 });
 
 app.listen(3666, () => {

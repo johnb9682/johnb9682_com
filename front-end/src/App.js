@@ -40,7 +40,16 @@ class App extends Component {
       }
     });
     */
-   fetch("http://johnb9682.com:3666/resumedata")
+   
+    fetch("http://localhost:3666/resumedata", {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': 'http://localhost:3666',
+              'Access-Control-Allow-Credentials': 'true'
+            }, 
+          }
+      )
       .then(res => res.json())
       .then(
         (result) => {
@@ -58,6 +67,7 @@ class App extends Component {
           });
         }
       )
+     
   }
 
   componentDidMount(){
