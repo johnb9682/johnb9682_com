@@ -25,6 +25,7 @@ class App extends Component {
   }
 
   getResumeData(){
+    /*
     $.ajax({
       //url:'/resumeData.json',
       url:':3000/resumedata',
@@ -38,6 +39,25 @@ class App extends Component {
         alert(err);
       }
     });
+    */
+   fetch("http://johnb9682.com:3000/resumedata")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          console.log(result);
+          this.setState({ 
+            resumeData: result.items
+          });
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+          this.setState({ 
+            error
+          });
+        }
+      )
   }
 
   componentDidMount(){
