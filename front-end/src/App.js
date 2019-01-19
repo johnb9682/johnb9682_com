@@ -41,22 +41,19 @@ class App extends Component {
     });
     */
    
-    fetch("http://localhost:3666/resumedata", {
+    fetch("http://johnb9682.com:3666/resumedata", {
             method: 'GET',
             headers: {
-              'Content-Type': 'application/json',
-              'Access-Control-Allow-Origin': 'http://localhost:3666',
-              'Access-Control-Allow-Credentials': 'true'
+              'Content-Type': 'application/json', 
             }, 
           }
       )
       .then(res => res.json())
       .then(
-        (result) => {
-          console.log(result);
+        (result) => { 
           this.setState({ 
-            resumeData: result.items
-          });
+            resumeData: JSON.parse(result),
+          }); 
         },
         // Note: it's important to handle errors here
         // instead of a catch() block so that we don't swallow
